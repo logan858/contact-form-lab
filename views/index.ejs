@@ -9,16 +9,16 @@
     <form method=POST action="/posts/">
       <div class="boxed">
         <p>Full Name: <span>*</span></p><br>
-        <input id="one" name="fullName">
+        <input id="one" name="fullName" required>
       </div>
       <div class="boxed">
         <p>E-mail: <span>*</span></p><br>
-        <input id="two" name="email">
+        <input id="two" name="email" type="email" required>
         <p id="example">example@example.com</p>
       </div>
       <div class="boxed"> 
         <p>Message: <span>*</span></p><br>
-        <textarea id="three" rows="5" name="message"></textarea><br>
+        <textarea id="three" rows="5" name="message" required></textarea><br>
       </div>
       <button type="submit" id="submit">Submit</button>
     </div>
