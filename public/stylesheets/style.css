@@ -1,0 +1,65 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(216, 215, 206);
+  color: rgb(61, 61, 61)
+}
+
+a {
+  color: #00B7FF;
+}
+span {
+  color: red;
+}
+p {
+  display: block;
+  margin: 10px auto 0;
+  width: 75%;
+}
+#container {
+  background-color: white;
+  width:75%;
+  height:500px;
+  margin: 25px auto;
+  border-radius: 3px;
+}
+#title {
+  background-color: rgb(216, 215, 206);
+  border: white solid 1px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}
+.boxed {
+  display:block;
+  margin: 0 auto;
+}
+#one {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+#two {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+#three {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+#example {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+#submit {
+  display: block;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color:rgb(119, 118, 118);
+  margin: 0 auto;
+}

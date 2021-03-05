@@ -1,0 +1,26 @@
+<%- include("./partials/head") %>
+
+    
+    <div id="container">
+      <div id="title">
+        <h1>Contact Us</h1>
+        Please fill this form in a decent manner
+      </div>
+    <form method=POST action="/posts/">
+      <div class="boxed">
+        <p>Full Name: <span>*</span></p><br>
+        <input id="one" name="fullName">
+      </div>
+      <div class="boxed">
+        <p>E-mail: <span>*</span></p><br>
+        <input id="two" name="email">
+        <p id="example">example@example.com</p>
+      </div>
+      <div class="boxed"> 
+        <p>Message: <span>*</span></p><br>
+        <textarea id="three" rows="5" name="message"></textarea><br>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </div>
+  </body>
+</html>

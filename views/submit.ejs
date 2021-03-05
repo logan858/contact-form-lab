@@ -1,0 +1,36 @@
+<%- include("./partials/head") %>
+
+
+
+<div id="container">
+    <div id="title">
+      <h1>Contact Us</h1>
+      Submitted
+    </div>
+  <form method=POST action="/posts/">
+    <div class="boxed">
+      <p>Full Name: <span>*</span><br><br>
+      &nbsp;  
+            <% for(let i of formS) { %>
+              <%= i.fullname %>
+            <% } %>
+          </p><br>
+    </div>
+    <div class="boxed">
+      <p>E-mail: <span>*</span><br><br>
+      &nbsp;  <% for(let i of formS) { %>
+                <%= i.email %>
+              <% } %>
+      </p><br>
+    </div>
+    <div class="boxed"> 
+      <p>Message: <span>*</span><br><br>
+      &nbsp;  <% for(let i of formS) { %>
+                <%= i.message %>
+              <% } %>
+     </p><br>
+    </div>
+  </div>
+
+</body>
+</html>
