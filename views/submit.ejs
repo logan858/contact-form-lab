@@ -9,7 +9,7 @@
     </div>
   <form method=POST action="/posts/">
     <div class="boxed">
-      <p>Full Name: <span>*</span><br><br>
+      <p>Full Name: <br><br>
       &nbsp;  
             <% for(let i of formS) { %>
               <%= i.fullname %>
@@ -17,14 +17,14 @@
           </p><br>
     </div>
     <div class="boxed">
-      <p>E-mail: <span>*</span><br><br>
+      <p>E-mail: <br><br>
       &nbsp;  <% for(let i of formS) { %>
                 <%= i.email %>
               <% } %>
       </p><br>
     </div>
     <div class="boxed"> 
-      <p>Message: <span>*</span><br><br>
+      <p>Message: <br><br>
       &nbsp;  <% for(let i of formS) { %>
                 <%= i.message %>
               <% } %>
