@@ -7,7 +7,6 @@ let forms = [
     
 ]
 
-
 function getAll() {
     return forms;
 }
